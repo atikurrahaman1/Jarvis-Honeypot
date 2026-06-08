@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/webhook", "destination": "/api/bot" },
+    { "source": "/trap/(.*)", "destination": "/api/bot" },
+    { "source": "/upload/(.*)", "destination": "/api/bot" }
+  ]
+}
